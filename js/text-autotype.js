@@ -1,6 +1,6 @@
 var i = 1;
 var j= -1;
-var list = ["Robotics & Machine Learning | iOS Development | Arizona State '19"];
+var list = ["Robotics & Machine Learning. iOS Development. Arizona State '19" ];
 var a=list[0];
 var len = list.length;
 var num = 0;
@@ -16,30 +16,7 @@ function txt(){
 			{
 				i++;
 			}
-		else
-			{
-                //Don't delete yourself
-				//i = -1;
-            }
 	}
-	else
-	{
-		if(-1*i != a.length)
-			{
-                //Don't delete yourself
-				//i--;
-			}
-		else
-			{
-                //Don't delete yourself
-				//i=1;
-				//var flag = ret_index(a);
-				//a = list[flag];
-			}
-
-
-	}
-
 
 
 }

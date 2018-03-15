@@ -10,16 +10,16 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#57d1f2"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 0,
-        "color": "#000000"
+        "width": 0.3,
+        "color": "#ffffff"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 10
       },
       "image": {
         "src": "img/github.svg",
@@ -61,9 +61,9 @@ particlesJS("particles-js", {
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
+      "bounce": true,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
