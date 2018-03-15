@@ -16,10 +16,10 @@ body {
   width: 100%;
   height: 100%;
   z-index: -20;
-  background-color: #d4dbdd; /* background color */
+  background-color: #bcc6c8; /* background color */
 }
 .head{
-  color: #000000; /* title color*/
+  color: #2e2b50; /* title color*/
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Lustria', serif;
   font-family: 'Raleway', sans-serif;
@@ -75,7 +75,7 @@ p{
 
 }
 .fb, .ig, .lin, .git, .twit, .mail, .res{
-  color:#32CD32;
+  color:#2e2b50;
 }
 
 .ico{
