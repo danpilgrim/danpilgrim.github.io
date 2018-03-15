@@ -19,7 +19,7 @@ body {
   background-color: #000000; /* background color */
 }
 .head{
-  color: #289DBC; /* title color*/
+  color: #6789ff; /* title color*/
   font-family: 'Lustria', serif;
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -74,7 +74,7 @@ p{
 
 }
 .fb, .ig, .lin, .git, .twit, .mail, .res{
-  color:#289DBC;
+  color:#6789ff;
 }
 
 .ico{
