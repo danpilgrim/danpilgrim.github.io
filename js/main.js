@@ -3,23 +3,23 @@ s =3;
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 100,
       "density": {
         "enable": true,
-        "value_area": 700
+        "value_area": 2000
       }
     },
     "color": {
-      "value": "#9fc3ff"
+      "value": "#f2ff00"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
-        "width": 0.3,
-        "color": "#9fc3ff"
+        "width": 0,
+        "color": "#ffffff"
       },
       "polygon": {
-        "nb_sides": 10
+        "nb_sides": 5
       },
       "image": {
         "src": "img/github.svg",
@@ -29,10 +29,10 @@ particlesJS("particles-js", {
     },
     "opacity": {
       "value": 0.5,
-      "random": false,
+      "random": true,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 3,
         "opacity_min": 0.1,
         "sync": false
       }
@@ -50,20 +50,20 @@ particlesJS("particles-js", {
     "line_linked": {
       "enable": true,
       "distance": 200,
-      "color": "#9fc3ff",
+      "color": "#ffffff",
       "opacity": 0.4,
       "width": 1
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 0.2,
       "direction": "top",
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
-        "enable": true,
+        "enable": false,
         "rotateX": 600,
         "rotateY": 1200
       }
@@ -78,7 +78,7 @@ particlesJS("particles-js", {
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
@@ -90,14 +90,14 @@ particlesJS("particles-js", {
         }
       },
       "bubble": {
-        "distance": 400,
+        "distance": 100,
         "size": 3,
         "duration": 2,
         "opacity": 8,
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
+        "distance": 50,
         "duration": 0.4
       },
       "push": {
@@ -110,6 +110,7 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+
 
 var scene = document.getElementById('scene');
 var parallax = new Parallax(scene);
