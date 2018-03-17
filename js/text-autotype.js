@@ -17,17 +17,19 @@ function txt(){
 				i++;
 			}
 	}
-
-
 }
+
 function ret_index(a){
 	var index = list.indexOf(a);
 	if (index!= (len-1))
-		{return (index+1);}
+		{
+			return (index+1);
+		}
 	else
-		{return 0;}
+		{
+			return 0;
+		}
 
 }
-
 
 setInterval(txt,80);
