@@ -1,9 +1,12 @@
 /* ---- particles.js config ---- */
 s =3;
+
+
+
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 1500
@@ -13,7 +16,7 @@ particlesJS("particles-js", {
       "value": "#f2ff00"
     },
     "shape": {
-      "type": "star",
+      "type": ["image", "image2", "image3", "image4", "image5", "image6", "image7", "image8"],
       "stroke": {
         "width": 0,
         "color": "#ffffff"
@@ -22,7 +25,7 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-        "src": "img/github.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png",
         "width": 100,
         "height": 100
       }
@@ -38,12 +41,12 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 4,
+      "value": 20,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
+        "enable": true,
+        "speed": 1,
+        "size_min": 10,
         "sync": false
       }
     },
@@ -51,7 +54,7 @@ particlesJS("particles-js", {
       "enable": true,
       "distance": 200,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.5,
       "width": 1
     },
     "move": {
@@ -74,13 +77,13 @@ particlesJS("particles-js", {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "push"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
@@ -97,11 +100,11 @@ particlesJS("particles-js", {
         "speed": 3
       },
       "repulse": {
-        "distance": 50,
+        "distance": 20,
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 1
       },
       "remove": {
         "particles_nb": 2
