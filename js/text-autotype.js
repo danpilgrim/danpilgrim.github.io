@@ -1,6 +1,6 @@
 var i = 1;
 var j= -1;
-var list = ["Software Engineer, Adaptive Programmer, Masters Student " ];
+var list = ["Software Engineer, Adaptive Programmer, Outstanding Student " ];
 var a=list[0];
 var len = list.length;
 var num = 0;
